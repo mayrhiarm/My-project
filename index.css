@@ -1,0 +1,105 @@
+body{
+    margin: auto;
+}
+
+
+
+.go{
+    display: flex;
+}
+.we{
+    display: flex;
+    justify-content: space-between;
+
+}
+.we a{
+    text-decoration: none;
+    padding-right: 20px;
+
+}
+.to{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.do{
+    width: 300px;
+}
+.an{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.l{
+    height: 30px;
+    width: 150px;
+    margin-right: 15px;
+    padding-left: 10px;
+}
+.o{
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 160px;
+}
+.v{
+    width: 300px;
+    height: 30px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.e{
+    width: 300px;
+    height: 30px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.de{
+    width: 355px;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    
+}
+.ss{
+    display: flex;
+    background-image: url(./images/bg.jpg);
+    color: white;
+    padding: 50px;
+    
+    
+}
+.fo{
+    background-color: white;
+    width: 400px;
+    height: 280px;
+    
+    padding: 20px;
+    
+    padding-bottom: 20px;
+    margin-left: 600px;
+}
+
+.he{
+    color: black;
+}
+.rr{
+    width: 200px;
+    border-radius: 900px;
+    margin-top: 30px;
+}
+.jj{
+    width: 200px;
+    border-radius: 900px;
+    margin-top: 30px;
+
+}
+.mm{
+    display: flex;
+    justify-content: space-around;
+}

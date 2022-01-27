@@ -102,4 +102,29 @@ body{
 .mm{
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+.ri{
+    width: 200px;
+    border-radius: 900px;
+    margin-top: 30px;
+}
+.lo{
+    width: 30%;
+    font-size: 20px;
+
+}
+.dd{
+    width: 30%;
+    font-size: 20px;
+
+}
+.ye{
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    font-size: 20px;
+}
+.ee{
+    padding: 45%px;
 }

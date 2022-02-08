@@ -14,8 +14,13 @@
 }
 .form{
     width: 50%;
+    box-sizing: border-box;
     
     margin-top: 2%;
+}
+.am{
+    text-align: end;
+
 }
 .prof{
     width: 50%;
@@ -60,34 +65,44 @@
 }
 
 .l{
-    height: 40px;
+    height: 45px;
     width: 45%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    padding-left: 10px;
 
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 .o{
-    height: 40px;
+    height: 45px;
     margin-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    padding-left: 10px;
 
-    width:44%;
-    padding-bottom: 5%;
+    width: 46.5%;
+    /* padding-bottom: 5%; */
 }
 .v{
-    width: 93%;
-    height: 70px;
-
-    
-    padding-left: 10px; */
-    padding-bottom: 5%;
+    width: 95%;
+    height: 45px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    padding-left: 10px; 
+    /* padding-bottom: 5%; */
 }
 .e{
     width: 95%;
-    height: 40px;
+    height: 45px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    padding-left: 10px;
 
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 .de{
-    width: 97%;
+    width: 96%;
+    margin-top: 2%;
     
     background-color: #007bff;
     color: white;
@@ -125,18 +140,23 @@
 .lo{
     width: 40%;
     font-size: 20px;
+    /* text-align: center; */
+    line-height: 30px;
 
 }
 .dd{
     width: 40%;
     font-size: 20px;
+    /* text-align: center; */
+    line-height: 30px;
 
 }
 .ye{
     width: 40%;
     text-align: center;
-    margin-left: 33%;
+    margin-left: 31.5%;
     font-size: 20px;
+    line-height: 30px;
 }
 .ee{
     padding: 45%px;
@@ -151,6 +171,7 @@
     font-size: 20px;
     text-align: center;
     margin-top: 10%;
+    /* padding: 1%; */
 }
 .xx div{
     width: 30%;
@@ -180,6 +201,8 @@ span{
     justify-content: space-around;
     padding-bottom: 100px;
     background-color: #f8f9fa;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .class{
     width: 50px;
@@ -245,14 +268,18 @@ span{
 
 .cc{
     display: flex;
+    padding: 4%;
 }
 .mn{
+    line-height: 30px;
 
-    font-size: 20px;
+    font-size: 16px;
 }   
 .glass{
-    padding-left: 30px;
-    width: 50%;
+    /* padding-left: 30px; */
+    width: 49%;
+    padding-left: 20px;
+    padding-right: 16px;
 }
 .stud{
     width: 50%;
@@ -274,7 +301,10 @@ span{
 }
 .aa{
     /* margin-left: 150px ; */
-    width: 100%;
+    width: 80%;
+    margin-left: 12%;
+    /* margin-right: 20%; */
+
 }
 .mo{
     color: white;
@@ -303,15 +333,18 @@ span{
 }
 .tj{
            /* width: 420px; */
-    box-shadow: 2px 2px white;
+    box-shadow: 3px 3px 2px 2px rgb(236 229 229);
     background-color: white;
-    padding: 3%;
-    line-height: 35px;
-    border-radius: 8px;
-    font-size: 80%;
+    padding: 1%;
+    line-height: 30px;
+    border-radius: 10px;
+    font-size: 100%;
     position: relative;
-    right: 24%;
+    right: 16%;
     margin-top: 6%;
+    max-width: 25%;
+    height: 40%;
+
 }
 .zip{
     margin-left: 4%;
@@ -325,14 +358,14 @@ span{
     padding-left: 230px;
     padding-top: 40px ;
     padding-bottom: 40px; */
+    
 }
 .chair{
     background-color: #007bff;
     color: white;
     margin: 30px;
-    margin-left: 20%;
-    margin-left: 20;
-    margin-left: 2;
+    margin-left: 15%;
+    
     padding-top: 20px;
     padding-bottom: 20px;
     width: 63%;
@@ -340,7 +373,7 @@ span{
     padding-left: 4%;
     font-size: 20px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between; 
     border-radius: 5px;
 
 }
@@ -354,7 +387,7 @@ span{
     background-color: #007bff;
     border: none;
     margin-bottom: 50px;
-    margin-left: 45%;
+    margin-left: 47.5%;
 }
 .nut{
     color: #007bff ;
@@ -373,6 +406,7 @@ span{
     width: 40%;
     text-align: center;
     margin-left: 33%;
+    line-height: 2;
 }
 
 .xox{
@@ -398,11 +432,12 @@ span{
 }
 .yy{
     background-color: #f8f9fa;
-    padding: 50px;
+    /* padding: 50px; */
 }
 .moon{
     width: 40%;
     padding-left: 70px;
+    line-height: 2;
 }
 .smile{
     width: 50%;
@@ -425,7 +460,7 @@ span{
     
 }
 .sun{
-    margin-left: 43%;
+    margin-left: 46%;
     font-size: 20px;
     padding-top: 20px;
 }
@@ -469,7 +504,7 @@ span{
     /* line-height: 30px; */
     background-color: white;
     padding: 3%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 
 }
 .cat{
@@ -492,17 +527,19 @@ span{
 .busy{
     background-color: rgb(206, 76, 53);
     width: 30%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-left: 10%;
     color: white;
     padding: 3%;
     font-size: 20px;
 }
 .lone{
-    background-color: black;
+    background-color: rosybrown;
     display: flex;
     justify-content: space-around;
-    color: rgb(228, 222, 222) ;
+    /* justify-content: space-between; */
+    color: #f8f9fa ;
+
 
 }
 .off{
@@ -519,7 +556,7 @@ span{
     color: white;
 }
 .sign h2{
-    color: rgb(228, 222, 222) ;
+    color: #f8f9fa;
     font-size: 15px;
     /* padding-bottom: 100px; */
     text-align: center;
@@ -530,10 +567,10 @@ span{
     
 }
 .dave{
-    color: rgb(228, 222, 222);
+    color: #f8f9fa;
 }
 .sub{
-    width: 81%;
+    width: 200%;
     justify-content: center;
     background-color: #007bff;
     color: white;
@@ -543,9 +580,10 @@ span{
 }
 .last{
     width: 30%;
+    margin-left: 20%;
 }
 .yyy{
-    width: 80%;
+    width: 200%;
     justify-content: center;
     background-color: white;
     color: rgb(48, 45, 45);
@@ -561,13 +599,14 @@ span{
     display: flex;
     justify-content: space-around;
 }
+.imgsticky{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 10%;
+    left: 80%; 
+}
 
-
-
-
-
-
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
 
     .go{
         display: flex;
@@ -579,7 +618,7 @@ span{
     
     }
     .bv{
-        display: flex;
+        display: block;
     }
     .form{
         width: 50%;
@@ -595,6 +634,9 @@ span{
         padding-right: 20px;
     
     }
+    .nana{
+        margin-left: 7%;
+    }
     .to{
         display: flex;
         justify-content: space-between;
@@ -605,6 +647,10 @@ span{
         width: 400px;
         font-size: xx-large;
     }
+    .am{
+        text-align: end;
+    }
+    
     .an{
         display: flex;
         justify-content: space-between;
@@ -621,9 +667,9 @@ span{
     }
     
     .fo{
-        width: 95%;
+        width: 100%;
         /* height: 280px; */
-        padding: 1%;
+        padding: 5%;
         /* padding-bottom: 20px; */
         /* margin-left: 100px; */
         margin-right: 3%;
@@ -672,7 +718,8 @@ span{
         
     }
     .fo{
-        background-color: white;     
+        background-color: white; 
+        width: 85% ;    
     } 
     .he{
         color: black;
@@ -719,7 +766,7 @@ span{
         
     }
     .xx{
-        width: 100%; 
+        width: 95%; 
         display: flex;
         justify-content: space-between;
         justify-content: space-around;
@@ -788,7 +835,7 @@ span{
         background-color: #007bff;
         border: none;
         /* margin-bottom: 30px;  */
-        margin-left: 50%;
+        margin-left: 15%;
     }
     .ref{
         width: 50px;
@@ -820,13 +867,14 @@ span{
         object-fit: contain;
     }
     .hh{
-        /* text-align: center;
-        margin-right: 150px;  */
+         text-align: center;
+        /* margin-right: 150px;  */
+        margin-left: -17%;
     
     }
     
     .cc{
-        display: flex;
+        display: block;
     }
     .mn{
         /* width: 550px;
@@ -834,12 +882,13 @@ span{
         font-size: 15px;
     }   
     .glass{
-        padding-left: 30px;
-        width: 50%;
+        /* padding-left: 28px; */
+        width: 87%;
     }
     .stud{
-        width: 50%;
+        width: 75%;
         margin-top: 3%;
+        margin-left: 8%; 
     }
     
     .tt{
@@ -857,7 +906,9 @@ span{
     }
     .aa{
         /* margin-left: 150px ; */
-        width: 100%;
+        width: 85%;
+        margin-left: 4%;
+        margin-right: 10%;
     }
     .mo{
         color: white;
@@ -892,9 +943,11 @@ span{
         /* line-height: 35px; */
         border-radius: 8px;
         font-size: 65%;
-        position: relative;
-        right: 24%;
+        /* position: relative;
+        right: 24%; */
         margin-top: 6%;
+        max-width: fit-content;
+        margin-left: 30%;
     }
     .zip{
         margin-left: 4%;
@@ -908,14 +961,14 @@ span{
         padding-left: 230px;
         padding-top: 40px ;
         padding-bottom: 40px; */
+        margin-left: 5%;
     }
     .chair{
         background-color: #007bff;
         color: white;
         margin: 30px;
-        margin-left: 20%;
-        margin-left: 20;
-        margin-left: 2;
+        margin-left: 15%;
+    
         padding-top: 20px;
         padding-bottom: 20px;
         width: 63%;
@@ -956,6 +1009,7 @@ span{
         width: 40%;
         text-align: center;
         margin-left: 33%;
+        line-height: 2;
     }
     
     .xox{
@@ -964,11 +1018,13 @@ span{
         object-fit: contain;
     }
     .ch{
-        width: 40%;
-        padding-left: 50px;
+        width: 78%;
+        /* padding-left: 50px; */
+        /* margin-left: 15%; */
     }
     .chhh{
         width: 60%;
+        margin-left: 11%;
     }
     .ch p{
         /* line-height: 30px; */
@@ -980,14 +1036,16 @@ span{
     }
     .yy{
         background-color: #f8f9fa;
-        padding: 50px;
+        /* padding: 50px; */
+        /* margin-left: 3%; */
     }
     .moon{
-        width: 40%;
+        width: 85%;
         padding-left: 70px;
     }
     .smile{
-        width: 50%;
+        width: 70%;
+        margin-left: 17%;
         
     }
     .zip p{
@@ -1004,6 +1062,10 @@ span{
     }
     .mama{
         display: flex;
+        display: block;
+        width: 100%;
+        /* margin-left: 7%; */
+        /* margin-right: 15%;  */
         
     }
     .sun{
@@ -1012,12 +1074,15 @@ span{
         padding-top: 20px;
     }
     .vas{
-        display: flex;
-        padding: 30px;
+        /* display: flex; */
+        /* padding: 30px; */
+        display: block;
+        /* width: max-content; */
     }
     .pan{
         text-align: center;
         font-size: 20px;
+        margin-left: 8%;
     }
     .pot{
         width: 250px;
@@ -1081,10 +1146,10 @@ span{
         font-size: 20px;
     }
     .lone{
-        background-color: black;
+        background-color: rosybrown;
         display: flex;
         justify-content: space-around;
-        color: rgb(228, 222, 222) ;
+        color:#f8f9fa ;
     
     }
     .off{
@@ -1094,14 +1159,15 @@ span{
         
     }
     .flex{
-        display: flex;  
+        display: flex; 
+        padding: 3%; 
     }
     
     .p{
         color: white;
     }
     .sign h2{
-        color: rgb(228, 222, 222) ;
+        color :#f8f9fa ;
         font-size: 15px;
         /* padding-bottom: 100px; */
         text-align: center;
@@ -1112,10 +1178,10 @@ span{
         
     }
     .dave{
-        color: rgb(228, 222, 222);
+        color: #f8f9fa;
     }
     .sub{
-        width: 81%;
+        width: 100%;
         justify-content: center;
         background-color: #007bff;
         color: white;
@@ -1125,9 +1191,10 @@ span{
     }
     .last{
         width: 20%;
+        margin-left: 15%;
     }
     .yyy{
-        width: 80%;
+        width: 100%;
         justify-content: center;
         background-color: white;
         color: rgb(48, 45, 45);
@@ -1139,22 +1206,19 @@ span{
         padding-right: 50px;
     }
     
-    
-    
-    
-    
-    
     .mm{
         display: flex;
         justify-content: space-around;
     }
   
+    .imgsticky{
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 10%;
+        left: 80%;
+
+
 }
-
-
-
-
-
 
 
 
@@ -1170,16 +1234,28 @@ span{
     
     }
     .bv{
-        display: flex;
+        display: block;
     }
+    .am{
+        text-align: end;
+    }
+    
     .form{
-        width: 50%;
-        /* margin-left: 3%; */
+        width: 80%;
+        box-sizing: border-box;
         margin-top: 4%;
+        margin-left: 12%;
+        height: 74%;
+        font-size: 20px;
+        
     }
     .prof{
-        width: 50%;
+        /* width: 50%;
+        padding: 3%; */
+        width: 80%;
         padding: 3%;
+        margin-left: 7%;
+        font-size: 20px;
     }
     .we a{
         text-decoration: none;
@@ -1187,79 +1263,97 @@ span{
     
     }
     .to{
-        display: flex;
+        display: block;
         justify-content: space-between;
         padding-left: 20px;
         padding-right: 20px;
     }
     .do{
-        width: 400px;
+        width: 252px;
         font-size: xx-large;
     }
     .an{
-        display: flex;
+        display: block;
         justify-content: space-between;
         
     }
     .ss{
-        display: flex;
-        /* padding: 50px; */
+    
         background-image: url(./images/bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
+        display: block;
         
     }
     
     .fo{
-        width: 100%;
+        width: 95%;
         /* height: 280px; */
-        padding: 5%;
+        padding: 1%;
         /* padding-bottom: 20px; */
         /* margin-left: 100px; */
         margin-right: 3%;
+        margin-top: 5%;
     }
     
     .l{
-        height: 40px;
-        width: 45%;
+        
+        height: 45px;
+        width: 44%;
         /* margin-right: 15px;
         padding-left: 10px; */
-        padding-bottom: 5%;
+        /* padding-bottom: 5%; */
+        box-sizing: border-box;
+        margin-bottom: 3%;
     }
     .o{
-        height: 40px;
-        margin-left: 10px;
+        height: 45px;
+        margin-left: 2px;
         /* margin-bottom: 20px;
         padding-left: 10px; */
-        width:44%;
-        padding-bottom: 5%;
+        width:45%;
+        /* padding-bottom: 5%; */
+        box-sizing: border-box;
+        margin-bottom: 3%;
+
+    }
+    .wall{
+        box-sizing: border-box;
+        padding-left: 2%;
     }
     .v{
-        width: 95%;
-        height: 40px;
+        width: 92%;
+        height: 45px;
         /* padding-right: 50px;
         margin-bottom: 20px;
-        
+        box-sizing: border-box;
+        margin-bottom: 3%;
         padding-left: 10px; */
-        padding-bottom: 5%;
+        /* padding-bottom: 5%; */
+        box-sizing: border-box;
+        margin-bottom: 3%;
+
     }
     .e{
-        width: 95%;
-        height: 40px;
+        width: 92%;
+        height: 45px;
         /* padding-right: 50px;
         margin-bottom: 20px;
         padding-left: 10px; */
-        padding-bottom: 5%;
+        /* padding-bottom: 5%; */
+        box-sizing: border-box;
+        margin-bottom: 3%;
     }
     .de{
-        width: 97%;
+        width: 93%;
         /* justify-content: center; */
         background-color: #007bff;
         color: white;
         padding: 4%;
         border-style: none;
         /* border: 0px; */
+        margin-top: 4%;
         
     }
     .fo{
@@ -1267,6 +1361,7 @@ span{
     } 
     .he{
         color: black;
+        padding-left: 2%;
     }
     .rr{
         width: 180px;
@@ -1289,20 +1384,27 @@ span{
         margin-top: 30px;
     }
     .lo{
-        width: 40%;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
         font-size: 20px;
+    
     
     }
     .dd{
-        width: 40%;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
         font-size: 20px;
+        
     
     }
     .ye{
-        width: 40%;
+        width: 80%;
         text-align: center;
-        margin-left: 33%;
+        margin-left: 10%;
         font-size: 20px;
+        
     }
     .ee{
         padding: 45%px;
@@ -1310,16 +1412,18 @@ span{
         
     }
     .xx{
-        width: 100%; 
-        display: flex;
+        /* width: 200%;  */
+        display: block;
         justify-content: space-between;
         justify-content: space-around;
         font-size: 20px;
         text-align: center;
         margin-top: 10%;
+        margin-left: 5%;
+        line-height: 100%;
     }
     .xx div{
-        width: 30%;
+        width: 100%;
         /* line-height: 30px; */
         font-size: 15px;
     }
@@ -1379,7 +1483,7 @@ span{
         background-color: #007bff;
         border: none;
         /* margin-bottom: 30px;  */
-        margin-left: 50%;
+        margin-left: 25%;
     }
     .ref{
         width: 50px;
@@ -1388,25 +1492,28 @@ span{
         background-color: #007bff;
         border: none;
         /* margin-bottom: 30px;  */
-        margin-left: 50%;
+        margin-left: 48%;
     }
     
     .come{
         
-         margin-left: 20px; 
+         margin-left: 15px; 
     }
     .note{
-        width: 50%;
+        
+        width: 80%;
+        margin-left: 26%;
+        line-height: 20px;
     
-        margin-left: 30%;
+        margin-left: 15%;
         /* line-height: 30px; */
         /* padding-bottom: 50px; */
     }
     
     .kk{
         /* width: 700px; */
-        /* margin-left: 50px; */
-        max-width: 100%;
+        margin-left: 25px; 
+        width: 100%;
         max-height: 100%;
         object-fit: contain;
     }
@@ -1417,7 +1524,10 @@ span{
     }
     
     .cc{
-        display: flex;
+        display: block;
+        /* margin-left: 10%; */
+        width: 100%;
+        line-height: 36%;
     }
     .mn{
         /* width: 550px;
@@ -1425,12 +1535,13 @@ span{
         font-size: 15px;
     }   
     .glass{
-        padding-left: 30px;
-        width: 50%;
+        /* padding-left: 10px; */
+        width: -1%;
     }
     .stud{
-        width: 50%;
+        width: 100%;
         margin-top: 3%;
+        margin-left: -14%;
     }
     
     .tt{
@@ -1448,13 +1559,13 @@ span{
     }
     .aa{
         /* margin-left: 150px ; */
-        width: 100%;
+        width: 87%;
     }
     .mo{
         color: white;
         background-color: #007bff;
         border-radius: 10px;
-        width: 180px;
+        width: 260px;
         border: none;
         height: 40px;
     }
@@ -1468,27 +1579,44 @@ span{
     
     }
     .ht{
-        display: flex;
+        display: block;
         justify-content: space-between;
         padding: 4%;
+        text-align: center;
     }
     .oo{
-        width: 100%;
+        /* width: 100%; */
+        max-width: 132%;
+        max-height: 100%;
+        object-fit: contain;
+        margin-left: 3%;
     }
     .tj{
                /* width: 420px; */
-        box-shadow: 2px 2px white;
+        box-shadow: 3px 3px 2px 2px rgb(236 229 229);
         background-color: white;
-        padding: 3%;
-        /* line-height: 35px; */
-        border-radius: 8px;
-        font-size: 65%;
-        position: relative;
-        right: 24%;
+        padding: 1%;
+        line-height: 30px;
+        border-radius: 10px;
+        font-size: 100%;
+        /* position: relative;
+        right: 16%; */
         margin-top: 6%;
+        max-width: 95%; 
+        height: 30%; 
+        /* margin-left: 30%; */
+
+        /* line-height: 30px;
+    border-radius: 10px;
+    font-size: 100%;
+    margin-top: 6%;
+    max-width: 95%;
+    height: 30%; */
+         
     }
     .zip{
         margin-left: 4%;
+        text-align: center;
     }
     .left p{
         /* line-height: 30px; */
@@ -1504,22 +1632,21 @@ span{
         background-color: #007bff;
         color: white;
         margin: 30px;
-        margin-left: 20%;
-        margin-left: 20;
-        margin-left: 2;
+        margin-left: 8%;
         padding-top: 20px;
         padding-bottom: 20px;
-        width: 63%;
-        padding-right: 4%;
-        padding-left: 4%;
+        width: 80%;
+        /* padding-right: 4%;
+        padding-left: 4%; */
         font-size: 20px;
-        display: flex;
+        display: block;
         /* justify-content: space-between; */
         border-radius: 5px;
     
     }
     .chair p{
-        width: 350px;
+        width: 88%;
+        text-align: center;
     }
     .sd{
         width: 50px;
@@ -1538,15 +1665,16 @@ span{
         height: 40px;
         width: 200px;
         margin-top: 20px;
+        margin-left: 10%;
     }
     .jk{
         text-align: center;
         /* padding-top: 50px; */
     }
     .orange{
-        width: 40%;
+        width: 60%;
         text-align: center;
-        margin-left: 33%;
+        margin-left: 25%;
     }
     
     .xox{
@@ -1555,30 +1683,41 @@ span{
         object-fit: contain;
     }
     .ch{
-        width: 40%;
-        padding-left: 50px;
+        width: 95%;
+         padding-left: 50px;
+         padding: 7%;
     }
+    
+
     .chhh{
-        width: 60%;
+        
+        width: 70%;
+        margin-left: 18%;
     }
     .ch p{
         /* line-height: 30px; */
     }
     .poo{
         margin-top: 20px;
-        padding: 2%;
+        padding: 6%;
+        margin-right: 12%;
         
     }
     .yy{
         background-color: #f8f9fa;
-        padding: 50px;
+        /* padding: 50px;
+        margin-left: 10%; */
     }
     .moon{
-        width: 40%;
-        padding-left: 70px;
+        width: 90%;
+        padding-left: 6%;
+        
+        line-height: 2;
+        /* margin-left: 3%; */
     }
     .smile{
-        width: 50%;
+        width: 86%;
+        /* margin-left: 12%; */
         
     }
     .zip p{
@@ -1594,17 +1733,17 @@ span{
         /* line-height: 30px; */
     }
     .mama{
-        display: flex;
+        display: block;
         
     }
     .sun{
-        margin-left: 43%;
+        margin-left: 35%;
         font-size: 20px;
         padding-top: 20px;
     }
     .vas{
-        display: flex;
-        padding: 30px;
+        display: block;
+        /* padding: 30px; */
     }
     .pan{
         text-align: center;
@@ -1620,30 +1759,46 @@ span{
     
     }
     .tent{
-        width: 50%;
+        width: 100%;
         /* line-height: 30px; */
         padding-right: 2%;
+        text-align: center;
         
     }
     .three{
-        width: 50%;
+        width: 100%;
         /* line-height: 30px; */
         padding-right: 2%;
         
     }
     .bat{
-        display: flex;
-        padding-left:4%;
+        display: block;
+        /* padding: 4%; */
         padding-bottom: 20px;
+        line-height: 2;
         /* padding-top: 100px; */
     }
     .troll{
-        width: 40%;
-        /* line-height: 30px; */
+        width: 70%;
+        line-height: 30px;
         background-color: white;
-        padding: 3%;
-        border-radius: 10px;
-    
+        padding: 10%;
+        /* border-radius: 10px; */
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 5%;
+        margin-right: 11%;
+
+        /* width: 70%;
+    line-height: 30px;
+    background-color: white;
+    padding: 10%;
+    /* border-radius: 10px; */
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 11%; */
+     
     }
     .cat{
         font-size: 25px;
@@ -1651,8 +1806,9 @@ span{
     }
     .dent{
         background-color: #007bff;
-        display: flex;
-        padding: 5%;
+        /* display: flex; */
+        padding: 1%;
+        display: block;
     
     }
     .star{
@@ -1664,35 +1820,38 @@ span{
     }
     .busy{
         background-color: rgb(206, 76, 53);
-        width: 30%;
-        border-radius: 10px;
+        width: 70%;
+        /* border-radius: 10px; */
         margin-left: 10%;
+        margin-right: 10%;
         color: white;
         padding: 3%;
         font-size: 20px;
     }
     .lone{
-        background-color: black;
-        display: flex;
+        background-color: rosybrown;
+        display: block;
         justify-content: space-around;
-        color: rgb(228, 222, 222) ;
+        color: #f8f9fa ;
     
     }
     .off{
         width: 40px;
         height: 40px;
-        padding-top: 20px;
+        padding-top: 22px;
+        padding-left: 14%;
         
     }
     .flex{
-        display: flex;  
+        /* display: flex;   */
+        /* display: block; */
     }
     
     .p{
         color: white;
     }
     .sign h2{
-        color: rgb(228, 222, 222) ;
+        color: #f8f9fa ;
         font-size: 15px;
         /* padding-bottom: 100px; */
         text-align: center;
@@ -1703,22 +1862,33 @@ span{
         
     }
     .dave{
-        color: rgb(228, 222, 222);
+        color:#f8f9fa ;
+        
+        
     }
     .sub{
-        width: 81%;
+        width: 92%;
         justify-content: center;
         background-color: #007bff;
         color: white;
         height: 50px;
         border: 0px;
-        margin-top: 15px;
+        margin-top: 8px;
+        margin-left: 4%;
     }
     .last{
         width: 20%;
+        margin-left: 40%;
+        /* margin-right: 11%; */
+        margin-top: 10%;
+    }
+    .sign{
+        /* padding-top: 10%;
+        padding-left: 2%; */
     }
     .yyy{
-        width: 80%;
+        margin-left: 4%;
+        width: 91%;
         justify-content: center;
         background-color: white;
         color: rgb(48, 45, 45);
@@ -1730,20 +1900,27 @@ span{
         padding-right: 50px;
     }
     
-    
-    
-    
-    
-    
     .mm{
-        display: flex;
-        justify-content: space-around;
+        /* display: flex; */
+        /* justify-content: space-around; */
+        
+        display: block;
+        /* width: 180%;
+        margin-left: 15%; */
     }
-  
-
-
-
+    .imgsticky{
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 10%;
+        left: 80%;
 }
+
+
+
+
+
+
+
 
 
 
